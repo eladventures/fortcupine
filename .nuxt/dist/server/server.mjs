@@ -1,0 +1,1 @@
+export { default } from "file:///Users/eladventures/Desktop/codes/fortcupine/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
