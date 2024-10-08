@@ -1,0 +1,5 @@
+const index_vue_vue_type_style_index_0_scoped_c4856c06_lang = ".font-inter[data-v-c4856c06]{font-family:Inter,sans-serif}.font-courier[data-v-c4856c06]{font-family:Courier,monospace}.logo-container[data-v-c4856c06]{align-items:center;display:flex;justify-content:center;margin-bottom:20px}.logo[data-v-c4856c06]{height:auto;margin-right:10px;max-width:200px}.custom-container[data-v-c4856c06]{align-items:center;display:flex;justify-content:center}.custom-heading[data-v-c4856c06]{font-size:2.7rem;font-weight:400}.custom-heading .typed-text[data-v-c4856c06]{color:#099}.blinking-cursor[data-v-c4856c06]{animation:blink-c4856c06 1s step-end infinite;color:#2c3e50;font-size:2rem}@keyframes blink-c4856c06{0%,to{color:transparent}50%{color:#2c3e50}}.bg-custom-image[data-v-c4856c06]{background-image:url(" + __buildAssetsURL("fortcupine-background.72009912.png") + ");background-position:50%;background-repeat:no-repeat;background-size:cover;position:relative}";
+export {
+  index_vue_vue_type_style_index_0_scoped_c4856c06_lang as default
+};
+//# sourceMappingURL=index-styles-1.mjs-3acdd9ea.js.map

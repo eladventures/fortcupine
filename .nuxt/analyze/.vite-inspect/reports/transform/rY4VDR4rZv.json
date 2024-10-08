@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/Users/eladventures/Desktop/codes/fortcupine/src/layouts/Default.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <div class=\"fixed top-0 z-50 w-full bg-white\">\n    <div\n      class=\"container flex items-center justify-between h-16 max-w-6xl mx-auto\"\n    >\n      <!-- Left: Logo -->\n      <a\n        rel=\"noopener noreferrer\"\n        href=\"#\"\n        aria-label=\"Back to homepage\"\n        class=\"flex items-center p-2\"\n      >\n        <img\n          src=\"../assets/images/fortcupine-logo-small.png\"\n          alt=\"Fortcupine Logo\"\n          class=\"object-contain w-auto h-12\"\n        />\n      </a>\n\n      <!-- Right: Navigation Menu -->\n      <ul class=\"flex items-center space-x-3 lg:flex\">\n        <li class=\"flex\">\n          <a\n            rel=\"noopener noreferrer\"\n            href=\"#health-apps\"\n            class=\"flex items-center px-4 -mb-1\"\n            >Health Apps</a\n          >\n        </li>\n        <li class=\"flex\">\n          <a\n            rel=\"noopener noreferrer\"\n            href=\"#true-privacy\"\n            class=\"flex items-center px-4 -mb-1\"\n            >True Privacy</a\n          >\n        </li>\n        <li class=\"flex\">\n          <a\n            rel=\"noopener noreferrer\"\n            href=\"#fort-1\"\n            class=\"flex items-center px-4 -mb-1\"\n            >Fort 1</a\n          >\n        </li>\n        <li class=\"flex\">\n          <a\n            rel=\"noopener noreferrer\"\n            href=\"#why-fortcupine\"\n            class=\"flex items-center px-4 -mb-1\"\n            >Why Fortcupine</a\n          >\n        </li>\n        <li class=\"flex\">\n          <a\n            rel=\"noopener noreferrer\"\n            href=\"#local-first\"\n            class=\"flex items-center px-4 -mb-1\"\n            >What is Local-First</a\n          >\n        </li>\n        <li class=\"flex\">\n          <a\n            rel=\"noopener noreferrer\"\n            href=\"#our-story\"\n            class=\"flex items-center px-4 -mb-1\"\n            >Our Story</a\n          >\n        </li>\n      </ul>\n    </div>\n  </div>\n\n  <!-- Adding padding to the content to avoid overlapping with the navbar -->\n  <div class=\"pt-16\">\n    <slot />\n  </div>\n</template>\n\n<script>\nexport default {\n  setup() {\n    return {};\n  },\n};\n</script>\n",
+      "start": 1728369187608,
+      "end": 1728369187693,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1728369187693,
+      "end": 1728369187693,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1728369187693,
+      "end": 1728369187693,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1728369187693,
+      "end": 1728369187693,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1728369187693,
+      "end": 1728369187693,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1728369187693,
+      "end": 1728369187693,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1728369187694,
+      "end": 1728369187694,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1728369187694,
+      "end": 1728369187694,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\nconst _sfc_main = {\n  setup() {\n    return {};\n  },\n};\n\nimport { createElementVNode as _createElementVNode, renderSlot as _renderSlot, createStaticVNode as _createStaticVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '../assets/images/fortcupine-logo-small.png'\n\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"fixed top-0 z-50 w-full bg-white\\\"><div class=\\\"container flex items-center justify-between h-16 max-w-6xl mx-auto\\\"><a rel=\\\"noopener noreferrer\\\" href=\\\"#\\\" aria-label=\\\"Back to homepage\\\" class=\\\"flex items-center p-2\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"Fortcupine Logo\\\" class=\\\"object-contain w-auto h-12\\\"></a><ul class=\\\"flex items-center space-x-3 lg:flex\\\"><li class=\\\"flex\\\"><a rel=\\\"noopener noreferrer\\\" href=\\\"#health-apps\\\" class=\\\"flex items-center px-4 -mb-1\\\">Health Apps</a></li><li class=\\\"flex\\\"><a rel=\\\"noopener noreferrer\\\" href=\\\"#true-privacy\\\" class=\\\"flex items-center px-4 -mb-1\\\">True Privacy</a></li><li class=\\\"flex\\\"><a rel=\\\"noopener noreferrer\\\" href=\\\"#fort-1\\\" class=\\\"flex items-center px-4 -mb-1\\\">Fort 1</a></li><li class=\\\"flex\\\"><a rel=\\\"noopener noreferrer\\\" href=\\\"#why-fortcupine\\\" class=\\\"flex items-center px-4 -mb-1\\\">Why Fortcupine</a></li><li class=\\\"flex\\\"><a rel=\\\"noopener noreferrer\\\" href=\\\"#local-first\\\" class=\\\"flex items-center px-4 -mb-1\\\">What is Local-First</a></li><li class=\\\"flex\\\"><a rel=\\\"noopener noreferrer\\\" href=\\\"#our-story\\\" class=\\\"flex items-center px-4 -mb-1\\\">Our Story</a></li></ul></div></div>\", 1)\nconst _hoisted_2 = { class: \"pt-16\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _hoisted_1,\n    _createElementVNode(\"div\", _hoisted_2, [\n      _renderSlot(_ctx.$slots, \"default\")\n    ])\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1728369187694,
+      "end": 1728369187695,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1728369187695,
+      "end": 1728369187695,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1728369187695,
+      "end": 1728369187696,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1728369187696,
+      "end": 1728369187696,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1728369187696,
+      "end": 1728369187696,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1728369187696,
+      "end": 1728369187696,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1728369187696,
+      "end": 1728369187696,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1728369187696,
+      "end": 1728369187696,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1728369187696,
+      "end": 1728369187696,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1728369187696,
+      "end": 1728369187696,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1728369187696,
+      "end": 1728369187696,
+      "order": "normal"
+    }
+  ]
+}
